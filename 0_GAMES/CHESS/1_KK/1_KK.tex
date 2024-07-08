@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{array}
+% \usepackage{fullpage}
+\usepackage{geometry}
+\usepackage{skak}
+\usepackage{chessboard}
+
+\geometry{
+	paperwidth=21cm,
+	paperheight=12cm,
+	margin=6em
+}
+
+\title{\textsc{Configurations [K, k].}}
+\date{}
+
+\begin{document}
+\pagestyle{empty}
+\maketitle
+\thispagestyle{empty}
+\vspace{-1cm}
+
+\storechessboardstyle{myset}{
+maxfield=c3,
+showmover=false,
+label=false
+}
+
+\begin{tabular}{p{1mm}l}
+1 &
+\begin{tabular}{*{5}{p{0.15 \linewidth}}}
+\hspace{1.5cm} a & \hspace{1.5cm} b & \hspace{1.5cm} c & \hspace{1.5cm} d & \hspace{1.5cm} e \\[-5mm]
+
+\def\piezas{Ka3, kc3}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{kb1,Kb3}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{Ka3, kc1}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{ka1,Kb3}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{Ka3,kc2}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+\\ 
+
+\end{tabular}
+\end{tabular}
+
+
+\end{document}

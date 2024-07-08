@@ -1,0 +1,210 @@
+\documentclass{article}
+
+% === PREAMBLE === (((
+\usepackage{skak}
+\usepackage{fullpage}
+\usepackage{chessboard}
+\title{\textsc{Configurations [K, k, r].}}
+\date{}
+% )))
+
+\begin{document}
+
+% === HEADER === (((
+\pagestyle{empty}
+\maketitle
+\thispagestyle{empty}
+\vspace{-1cm}
+\storechessboardstyle{myset}{
+maxfield=c3,
+showmover=false,
+label=false
+}
+% )))
+
+\begin{tabular}{p{1mm}l}
+
+% === LABELS === (((
+\begin{tabular}{c}
+	1 \\[2.1cm] 2 \\[2.1cm] 3 \\[2.1cm] 4 \\[2.1cm] 5 \\[2.1cm] 6 \\[2.1cm] 7
+\end{tabular}
+&
+% )))
+
+\begin{tabular}{*{5}{p{0.15 \linewidth}}}
+\hspace{1.5cm} a & \hspace{1.5cm} b & \hspace{1.5cm} c & \hspace{1.5cm} d & \hspace{1.5cm} e \\[-5mm]
+
+% === 1 FILA === (((
+\def\piezas{Ka3, kc3, rb3}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{kb1,Kb3,ra3}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{Ka3, kc1,rc2}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{ka1,Kb3,ra2}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{Ka3,kc2,rc3}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+\\[-1cm] 
+% )))
+
+% === 2 FILA === (((
+\def\piezas{Ka3, kc3,rb2}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{kb1,Kb3,ra2}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{Ka3, kc1,rc3}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{ka1,Kb3,ra3}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{Ka3,kc2,rb3}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+\\[-1cm]
+% )))
+
+% === 3 FILA === (((
+\def\piezas{Ka3, kc3,rb1}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{kb1,Kb3,ra1}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{Ka3, kc1,rb3}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{ka1,Kb3,rb2}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{Ka3,kc2,rb2}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+\\[-1cm]
+% )))
+
+% === 4 FILA === (((
+\def\piezas{Ka3, kc3,ra2}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{kb1,Kb3,rb2}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{Ka3, kc1,rb2}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{ka1,Kb3,rb1}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{Ka3,kc2,rb1}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+\\[-1cm]
+% )))
+
+% === 5 FILA === (((
+\def\piezas{Ka3, kc3,ra1}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+& 
+
+& 
+
+\def\piezas{ka1,Kb3,rc3}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{Ka3,kc2,ra2}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+\\[-1cm]
+% )))
+
+% === 6 FILA === (((
+\def\piezas{Ka3, kc3,rc2}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+& 
+
+& 
+
+\def\piezas{ka1,Kb3,rc2}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{Ka3,kc2,rc1}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+\\[-1cm]
+% )))
+
+% === 7 FILA === (((
+\def\piezas{Ka3, kc3,rc1}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+& 
+
+& 
+
+\def\piezas{ka1,Kb3,rc1}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+& 
+
+\def\piezas{Ka3,kc2,ra1}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+% )))
+
+\end{tabular}
+\end{tabular}
+
+\end{document}

@@ -1,0 +1,59 @@
+\documentclass{article}
+
+% === PREAMBLE === (((
+\usepackage{skak}
+\usepackage{chessboard}
+\title{\textsc{Configuration [K, k, r].}}
+\author{\textit{Categorical Mystics.}}
+\newcommand{\myboard}[1]{
+\def\piezas{#1}
+\setchessboard{setpieces=\piezas}
+\chessboard[style=myset]
+}
+% )))
+
+\begin{document}
+
+% === HEADER === (((
+\maketitle
+\storechessboardstyle{myset}{
+maxfield=c3,
+showmover=false,
+label=false
+}
+% )))
+
+\begin{enumerate}
+	\item Krk. \myboard{Ka3, rb3, kc3}
+	\item Kr/2k. \myboard{Ka3, rb3, kc2}
+	\item Kr//2k. \myboard{Ka3,rb3,kc1}
+	\item K1k/r. \myboard{Ka3,kc3,ra2}
+	\item K1k/1r. \myboard{Ka3,kc3,rb2}
+	\item K1k/2r. \myboard{Ka3,kc3,rc2}
+	\item K1k//r. \myboard{Ka3,kc3,ra1}
+	\item K1k//1r. \myboard{Ka3,kc3,rb1}
+	\item K1k//2r. \myboard{Ka3,kc3,rc1}
+	\item K1r/2k. \myboard{Ka3,rc3,kc2}
+	\item K1r//2k. \myboard{Ka3,rc3,kc1}
+	\item K/r1k. \myboard{Ka3,ra2,kc2}
+	\item K/1rk. \myboard{Ka3,rb2,kc2}
+	\item K/1r/2k. \myboard{Ka3,rb2,kc1}
+	\item K/2k/r. \myboard{Ka3,kc2,ra1}
+	\item K/2k/1r. \myboard{Ka3,kc2,rb1}
+	\item K/2k/2r. \myboard{Ka3,kc2,rc1}
+	\item K/2r/2k. \myboard{Ka3,rc2,kc1}
+	\item rK//k. \myboard{ra3,Kb3,ka1}
+	\item rK//1k. \myboard{ra3,Kb3,kb1}
+	\item 1Kr//k. \myboard{Kb3,rc3,ka1}
+	\item 1K/r/k. \myboard{Kb3,ra2,ka1}
+	\item 1K/r/1k. \myboard{Kb3,ra2,kb1}
+	\item 1K/1r/k. \myboard{Kb3,rb2,ka1}
+	\item 1K/1r/1k. \myboard{Kb3,rb2,kb1}
+	\item 1K/2r/k. \myboard{Kb3,rc2,ka1}
+	\item 1K//kr. \myboard{Kb3,ka1,rb1}
+	\item 1K//k1r. \myboard{Kb3,ka1,rc1}
+	\item 1K//rk. \myboard{Kb3,ra1,kb1}
+\end{enumerate}
+
+\end{document}
+
