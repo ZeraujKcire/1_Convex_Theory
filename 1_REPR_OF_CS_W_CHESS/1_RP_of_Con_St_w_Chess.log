@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.5.8)  3 JUL 2024 02:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.5.8)  17 JUL 2024 05:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -205,22 +205,27 @@ Class amsart Warning: Abstract should precede \maketitle in AMS document classe
 s; reported on input line 7.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<IMAGES/2/2.pdf, id=29, page=1, 427.9438pt x 250.27301pt>
+<IMAGES/3/3.pdf, id=29, page=1, 168.74844pt x 87.4708pt>
+File: IMAGES/3/3.pdf Graphic file (type pdf)
+<use IMAGES/3/3.pdf, page 1>
+Package pdftex.def Info: IMAGES/3/3.pdf , page1 used on input line 289.
+(pdftex.def)             Requested size: 180.0pt x 93.30984pt.
+ [3 <./IMAGES/3/3.pdf>]
+<IMAGES/2/2.pdf, id=70, page=1, 427.9438pt x 250.27301pt>
 File: IMAGES/2/2.pdf Graphic file (type pdf)
 <use IMAGES/2/2.pdf, page 1>
-Package pdftex.def Info: IMAGES/2/2.pdf , page1 used on input line 335.
+Package pdftex.def Info: IMAGES/2/2.pdf , page1 used on input line 407.
 (pdftex.def)             Requested size: 216.0022pt x 126.32385pt.
- [3]
-(./1_RP_of_Con_St_w_Chess.bbl) [4 <./IMAGES/2/2.pdf>]
+ (./1_RP_of_Con_St_w_Chess.bbl [4 <./IMAGES/2/2.pdf>]) [5]
 (./1_RP_of_Con_St_w_Chess.aux) ) 
 Here is how much of TeX's memory you used:
- 2821 strings out of 483107
- 35423 string characters out of 5964631
+ 2828 strings out of 483107
+ 35559 string characters out of 5964631
  269787 words of memory out of 5000000
- 17669 multiletter control sequences out of 15000+600000
+ 17674 multiletter control sequences out of 15000+600000
  539737 words of font info for 55 fonts, out of 8000000 for 9000
  220 hyphenation exceptions out of 8191
- 38i,10n,34p,279b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,34p,279b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
@@ -243,10 +248,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
 hare/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/rsfs/rsfs5.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/rsfs/rsfs7.pfb>
-Output written on 1_RP_of_Con_St_w_Chess.pdf (4 pages, 229501 bytes).
+Output written on 1_RP_of_Con_St_w_Chess.pdf (5 pages, 242382 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 160 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
